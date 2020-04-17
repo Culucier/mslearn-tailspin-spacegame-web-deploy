@@ -221,7 +221,7 @@ stages:
     - group: 'Release'
     strategy:
       runOnce:
-        deploy:
+        deploy:1
           steps:
           - download: current
             artifact: drop
